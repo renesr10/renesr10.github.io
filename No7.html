@@ -11,14 +11,21 @@
     }
   </style>
   </head>
-  <body>
+  <body onload="startTime()">
     <div class="device device-iphone-x">
         <div class="device-frame">
           <div class="device-content">
             <img class="device-content" src="src/bg-01.jpg" alt="iPhone Background">
+            <div id="clockdate">
+              <div class="clockdate-wrapper">
+                <div id="clock"></div>
+                <div id="date"></div>
+              </div>
+            </div>
             <div class="roundbox2">
               <div class="header2">
               <h6>&#127944; Winning Pass</h6>
+              <p id="time">Now</p>
           </div>
           <div class="header2a">
             <h5>Rival Team Scores: 6 - 12</h5>
@@ -35,5 +42,6 @@
         <div class="device-btns"></div>
         <div class="device-power"></div>
       </div>
+      <script src="app.js"></script>
   </body>
   </html>
