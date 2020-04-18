@@ -44,6 +44,7 @@
   border-radius: 40px;
   height: 812px;
   width: 375px;
+  z-index: 0;
 }
 
 .device-iphone-x .device-stripe::after,
